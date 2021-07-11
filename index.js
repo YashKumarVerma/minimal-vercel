@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ alive: true });
+  res.redirect("https://github.com/YashKumarVerma/minimal-vercel");
 });
 
 const port = process.env.PORT || 3000;
