@@ -2,8 +2,6 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Home Page Route"));
-
 app.get("/", (req, res) => {
   res.json({ alive: true });
 });
